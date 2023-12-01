@@ -1,0 +1,12 @@
+.menu_button {
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+    padding: 0 20px 0 20px;
+    height: 3rem;
+    transition: 120ms background-color ease-in-out;
+}
+
+.menu_button:hover {
+    background-color: #fce7e7;
+}
