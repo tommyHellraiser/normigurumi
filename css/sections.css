@@ -45,22 +45,38 @@
   font-size: 5rem;
 }
 
-.footer_general_container {
+/* Body classes */
+.cards_container {
   display: flex;
-  background-color: #BA90C6;
+  align-self: center;
+  align-items: center;
   justify-content: center;
-  /*border: #C0DBEA 10px solid;*/
-  padding: 0;
   width: 100%;
 }
 
+.body_container_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.body_container_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+}
+
+
+/* Footer classes */
+
 .footer_container {
   display: flex;
-  align-self: center;
-  justify-self: center;
-
   flex-direction: row;
-  width: 100%;
+  background-color: #BA90C6;
+  /*border: #C0DBEA 10px solid;*/
+  padding: 0;
 }
 
 .footer_row_container {
@@ -68,29 +84,39 @@
   flex-direction: row;
   padding: 1rem;
   margin: 0;
-  flex-wrap: wrap;
 
   width: 100%;
 }
 /* reference for footer:
 https://www.loreleisorrento.com/*/
-.footer_col_container1 {
+.footer_section {
   display: flex;
+  flex-direction: column;
   padding: 1rem;
-  justify-self: start;
-  align-self: start;
+  align-items: center;
+  width: 33%;
 }
 
-.footer_col_container2 {
-  display: flex;
-  padding: 1rem;
-  justify-self: center;
-  align-self: center;
+.footer_menu {
+  padding-inline: 0;
+  align-content: center;
+  display: flow;
 }
 
-.footer_col_container3 {
+.footer_menu_item {
+  list-style: none;
+  align-content: center;
+}
+
+.legals_container {
   display: flex;
-  padding: 1rem;
-  justify-self: end;
-  align-self: end;
+  flex-direction: row;
+  background-color: #BA90C6;
+  margin: 0;
+  justify-content: center;
+  padding: 0.7rem;
+}
+
+.legals_text {
+  color: red;
 }
