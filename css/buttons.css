@@ -8,7 +8,21 @@
 }
 
 .menu_button:hover {
-    background-color: #fce7e7;
+    background-color: #DBC4F0;
+}
+
+.order_now_button {
+    background: #D4E2D4;
+    border: darkseagreen 5px solid;
+    height: 100px;
+    width: 300px;
+    border-radius: 1rem;
+    font-size: 25px;
+    transition: background-color 100ms ease-in-out;
+}
+
+.order_now_button:hover {
+    background-color: #bcd7bc;
 }
 
 .footer_button {

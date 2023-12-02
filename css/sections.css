@@ -1,5 +1,5 @@
 #full_body {
-  background: #fdf8f8;
+  background: #FAF3F0;
   margin: 0;
 }
 
@@ -10,12 +10,16 @@
   align-items: center;
 }
 
+/* Color palette */
+/* https://colorhunt.co/palette/faf3f0d4e2d4ffcaccdbc4f0 */
+
 .first_header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: #BA90C6;
+  background-image: linear-gradient(#FFCACC, #FAF3F0);
+  /*background: #FFCACC;*/
   margin: 0;
   /*border: #E8A0BF 10px solid;*/
   width: 100%;
@@ -46,6 +50,23 @@
 }
 
 /* Body classes */
+
+.landing_section {
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 10%, rgb(250, 243, 240) 100%), url("../img/backgrounds/landing_back.jpg");
+  background-size: cover;
+  height: 600px;
+  justify-content: center;
+  align-items: end;
+}
+
+.order_button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
 .cards_container {
   display: flex;
   align-self: center;
