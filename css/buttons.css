@@ -1,14 +1,59 @@
 .header_menu_button {
     border: none;
+    border-radius: 5rem;
     background: none;
     font-size: 1.1rem;
+    font-family: 'Comfortaa', sans-serif;
     padding: 0 20px 0 20px;
     height: 3rem;
-    transition: 120ms background-color ease-in-out;
+    transition: 150ms background-color ease-in-out;
 }
 
 .header_menu_button:hover {
-    background-color: #DBC4F0;
+    /*background-color: #DBC4F0;*/
+    background-color: lightyellow;
+}
+
+.rotating_button {
+    border: none;
+    background-image: url("../img/resource/rotate_no_back.png");
+    background-color: transparent;
+    background-size: contain;
+    -webkit-animation: spin 8s linear infinite;
+    -moz-animation: spin 60s linear infinite;
+    animation: spin 60s linear infinite;
+    height: 305px;
+    width: 312px;
+
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+.animated_button_container:hover .animated_button_text {
+    text-shadow: black 0.6rem 0.6rem 0.6rem;
+}
+
+.animated_button_text {
+    color: black;
+    text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2.5rem;
+    transform: translateY(-240px);
+    transition: text-shadow 100ms ease-in-out;
+}
+
+.animated_button_text:hover {
+    text-shadow: black 0.2rem 0.2rem 0.2rem;
 }
 
 .order_now_button {
