@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/text.css">
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/menu.css">
 
 <!--  Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,11 +38,11 @@
 
     <div class="first_header">
 
-<!--      <div class="header_section left_aligned">-->
-<!--        <a href="#"><button class="header_menu_button">Home</button></a>-->
-<!--        <a href="#"><button class="header_menu_button">Store</button></a>-->
-<!--        <a href="#"><button class="header_menu_button">About Us</button></a>-->
-<!--      </div>-->
+      <div class="header_section left_aligned header_menu_buttons">
+        <a href="#"><button class="header_menu_button">Home</button></a>
+        <a href="#"><button class="header_menu_button">Store</button></a>
+        <a href="#"><button class="header_menu_button">About Us</button></a>
+      </div>
 
       <div id="logo_image" class="header_section middle_aligned">
         <div class="logo_container">
@@ -51,11 +52,24 @@
         </div>
       </div>
 
-<!--      <div class="header_section right_aligned">-->
-<!--        <a href="#"><button class="header_menu_button">About Us</button></a>-->
-<!--        <a href="#"><button class="header_menu_button">Another Button</button></a>-->
-<!--        <a href="#"><button class="header_menu_button">Yet Another Button</button></a>-->
-<!--      </div>-->
+      <div id="mobile_menu_button" class="mobile_menu_button hidden">
+
+        <img onclick="drop_menu()" src="img/resource/menu.png" alt="Menu button" height="40px">
+
+      </div>
+
+      <div class="header_section right_aligned header_menu_buttons">
+        <a href="#"><button class="header_menu_button">Another Button</button></a>
+        <a href="#"><button class="header_menu_button">Yet Another Button</button></a>
+      </div>
+    </div>
+
+    <div id="menu_items" class="menu_items menu_collapsed">
+      <a class="menu_item common_text_par" href="#">Home</a>
+      <a class="menu_item common_text_par" href="#">Store</a>
+      <a class="menu_item common_text_par" href="#">About Us</a>
+      <a class="menu_item common_text_par" href="#">Another Button</a>
+      <a class="menu_item common_text_par" href="#">Yet Another Button</a>
     </div>
 
   </section>
