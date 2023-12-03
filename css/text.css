@@ -1,3 +1,7 @@
+.site_description_text {
+    padding: 2rem;
+}
+
 .common_text_title_big {
     font-family: 'Comfortaa', sans-serif;
     font-size: 3rem;
@@ -15,15 +19,21 @@
     font-size: 1.8rem;
 }
 
-.site_description_text {
-    padding: 2rem;
+.common_text_par_small {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .common_text_par {
     font-family: 'Comfortaa', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .light_color_text {
     color: #f8a4a6;
+}
+
+.location_text_footer {
+    padding: 2rem;
 }
