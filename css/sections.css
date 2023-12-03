@@ -20,6 +20,13 @@
   height: 7rem;
 }
 
+@media (max-width: 500px) {
+  .first_header {
+    height: 200px;
+    width: 414px;
+  }
+}
+
 .header_section {
   display: flex;
   flex-direction: row;
@@ -50,8 +57,10 @@
   text-align: end;
 }
 
-.logo_container {
+.logo_container img {
+  object-fit: contain;
   padding: 0;
+  max-height: 300px;
 }
 
 .second_header {
