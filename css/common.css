@@ -12,7 +12,7 @@
     transform: scale(1.05);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .card {
         max-width: 15rem;
         margin: 2rem;
@@ -30,7 +30,7 @@
     border-radius: 0.7rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .card_image img {
         max-width: 15rem;
     }

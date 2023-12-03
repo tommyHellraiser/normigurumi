@@ -224,7 +224,7 @@
   margin: 0 2rem 0 2rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .catalog_section {
     margin: 0;
     justify-content: center;
