@@ -7,8 +7,16 @@
     max-width: 20rem;
     transition: transform 200ms ease-in-out;
 }
+
 .card:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+    .card {
+        max-width: 15rem;
+        margin: 2rem;
+    }
 }
 
 .card_image {
@@ -20,6 +28,12 @@
     object-fit: contain;
     max-width: 20rem;
     border-radius: 0.7rem;
+}
+
+@media (max-width: 500px) {
+    .card_image img {
+        max-width: 15rem;
+    }
 }
 
 .card_title {

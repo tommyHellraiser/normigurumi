@@ -220,7 +220,15 @@
 .catalog_section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0 2rem 0 2rem;
+}
+
+@media (max-width: 500px) {
+  .catalog_section {
+    margin: 0;
+    justify-content: center;
+  }
 }
 
 .body_container_column {
