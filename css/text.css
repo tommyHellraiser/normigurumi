@@ -1,7 +1,22 @@
+.common_text_title_big {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 .common_text_title {
     font-family: 'Comfortaa', sans-serif;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.common_text_par_big {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.8rem;
+}
+
+.site_description_text {
+    padding: 2rem;
 }
 
 .common_text_par {
