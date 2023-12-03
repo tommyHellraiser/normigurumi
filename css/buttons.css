@@ -48,8 +48,13 @@
     text-decoration: none;
     font-family: 'Comfortaa', sans-serif;
     font-size: 2.5rem;
-    transform: translateY(-240px);
+    transform: translateY(-250px);
     transition: text-shadow 100ms ease-in-out;
+}
+
+.animated_button_text_content {
+    text-decoration: none;
+    color: black;
 }
 
 .animated_button_text:hover {
