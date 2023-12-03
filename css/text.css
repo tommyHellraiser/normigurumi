@@ -8,6 +8,12 @@
     font-weight: bold;
 }
 
+@media (max-width: 500px) {
+    .common_text_title_big {
+        font-size: 2rem;
+    }
+}
+
 .common_text_title {
     font-family: 'Comfortaa', sans-serif;
     font-size: 2rem;
@@ -17,6 +23,12 @@
 .common_text_par_big {
     font-family: 'Comfortaa', sans-serif;
     font-size: 1.8rem;
+}
+
+@media (max-width: 500px) {
+    .common_text_par_big {
+        font-size: 1.2rem;
+    }
 }
 
 .common_text_par_small {

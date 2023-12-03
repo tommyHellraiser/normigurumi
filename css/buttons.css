@@ -24,7 +24,6 @@
     animation: spin 60s linear infinite;
     height: 305px;
     width: 312px;
-
 }
 @-moz-keyframes spin {
     100% { -moz-transform: rotate(360deg); }
@@ -39,6 +38,13 @@
     }
 }
 
+@media (max-width: 500px) {
+    .rotating_button {
+        height: 255px;
+        width: 262px;
+    }
+}
+
 .animated_button_container:hover .animated_button_text {
     text-shadow: black 0.6rem 0.6rem 0.6rem;
 }
@@ -50,6 +56,13 @@
     font-size: 2.5rem;
     transform: translateY(-250px);
     transition: text-shadow 100ms ease-in-out;
+}
+
+@media (max-width: 500px) {
+    .animated_button_text {
+        font-size: 2rem;
+        transform: translateY(-210px);
+    }
 }
 
 .animated_button_text_content {
