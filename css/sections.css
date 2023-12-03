@@ -26,18 +26,18 @@
   width: 33%;
 }
 
-.left_section {
+.left_aligned {
   justify-content: start;
-  padding-left: 30px;
+  padding-left: 2rem;
 }
 
-.middle_section {
+.middle_aligned {
   justify-content: center;
 }
 
-.right_section {
+.right_aligned {
   justify-content: end;
-  padding-right: 30px;
+  padding-right: 2rem;
 }
 
 .logo_container {
@@ -120,15 +120,13 @@
 .catalog_container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 2rem 0 2rem 0;
 }
 
-.cards_container {
+.catalog_section {
   display: flex;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  flex-direction: row;
+  margin: 0 2rem 0 2rem;
 }
 
 .body_container_column {
@@ -139,10 +137,6 @@
 .body_container_row {
   display: flex;
   flex-direction: row;
-}
-
-.card {
-  display: flex;
 }
 
 

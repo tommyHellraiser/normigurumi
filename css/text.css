@@ -1,3 +1,14 @@
-.common_text {
+.common_text_title {
     font-family: 'Comfortaa', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.common_text_par {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1rem;
+}
+
+.light_color_text {
+    color: #f8a4a6;
 }
