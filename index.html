@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Normigurumi Dolls</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,6 +13,7 @@
   <meta property="og:image" content="">
 
   <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 
   <link rel="stylesheet" href="css/sections.css">
   <link rel="stylesheet" href="css/buttons.css">
@@ -39,9 +40,9 @@
     <div class="first_header">
 
       <div class="header_section left_aligned header_menu_buttons">
-        <a href="#"><button class="header_menu_button">Home</button></a>
-        <a href="#"><button class="header_menu_button">Store</button></a>
-        <a href="#"><button class="header_menu_button">About Us</button></a>
+        <a href="#"><button id="home_button" class="header_menu_button">Home</button></a>
+        <a href="#"><button id="store_button" class="header_menu_button">Store</button></a>
+        <a href="#"><button id="about_us_button" class="header_menu_button">About Us</button></a>
       </div>
 
       <div id="logo_image" class="header_section middle_aligned">
@@ -100,14 +101,14 @@
 
     <div class="site_description_container">
 
-      <div class="site_description_section common_text_title_big">
+      <div id="about_us_title" class="site_description_section common_text_title_big">
 
         About Us
 
       </div>
 
       <a>
-        <h2 class="site_description_text common_text_par_big">
+        <h2 id="about_us_description" class="site_description_text common_text_par_big">
           Indulge in the magic of handmade wool dolls meticulously crafted.
           <br>Each doll is a testament to care and dedication, ensuring the highest quality
           <br>and a touch of personalized charm.
@@ -120,7 +121,12 @@
       <div class="animated_button_container">
 
         <a href="#"><button class="rotating_button"></button></a>
-        <div class="animated_button_text">
+
+        <div id="en_button_text" class="animated_button_text hidden">
+          <a href="#" class="animated_button_text_content"><h3>Order<br>now!</h3></a>
+        </div>
+
+        <div id="es_button_text" class="animated_button_text hidden">
           <a href="#" class="animated_button_text_content"><h3>¡Hacé tu<br>pedido!</h3></a>
         </div>
 
@@ -138,7 +144,7 @@
 
       <div class="catalog_section left_aligned">
 
-        <h2 class="common_text_title light_color_text">Our Categories</h2>
+        <h2 id="categories_title" class="common_text_title light_color_text">Our Categories</h2>
 
       </div>
 
@@ -160,8 +166,8 @@
 <!--            5 años aprox, y la muñeca blandita y el rechazo al plastico son ideales para los bebes-->
 <!--            Se puede hacer un tipo oferta para bautismo, baby shower (mi primer amigurumi)-->
 
-          <div class="card_content common_text_par">
-            Montessori style amigurumi dolls, designed with natural, soft and color neutral wool fibers, ideal to etc etc, complete with a couple of words.
+          <div id="montessori_card_description" class="card_content common_text_par">
+            Montessori style amigurumi dolls, designed with natural, soft and color neutral wool fibers, ideal to stimulate sensory development in children while fostering a connection to nature.
           </div>
 
         </div>
@@ -176,9 +182,9 @@
 
           </div>
 
-          <div class="card_title common_text_title">Catalog</div>
+          <div id="catalog_card_title" class="card_title common_text_title">Catalog</div>
 
-          <div class="card_content common_text_par">
+          <div id="catalog_card_description" class="card_content common_text_par">
             Our selection of our most popular requested dolls, with a variety of styles and colors to choose from.
           </div>
 
@@ -194,11 +200,11 @@
 
           </div>
 
-          <div class="card_title common_text_title">Custom</div>
+          <div id="custom_card_title" class="card_title common_text_title">Custom</div>
 
 <!--          TODO Hacer enfasis en que es completamente a medida dentro de la pagina de custom, todo personalizado.-->
 
-          <div class="card_content common_text_par">
+          <div id="custom_card_description" class="card_content common_text_par">
             Let us make your vision come true, with a custom-made doll designed to your specifications.
           </div>
 
@@ -217,14 +223,14 @@
 
 <!--      Left footer section-->
       <div id="location_footer" class="footer_section left_aligned location_text_footer">
-        <div class="common_text_par">
+        <div id="footer_location_text" class="common_text_par">
           Mendoza, Argentina.
           <br>
           <br>
-          Envíos a todo el país.
+          Nation-wide shipping.
           <br>
           <br>
-          Consultar por envíos al exterior.
+          Contact us for international shippings.
         </div>
       </div>
 
@@ -232,19 +238,19 @@
       <div class="footer_section middle_aligned_footer">
 
         <a href="#">
-          <button class="footer_button">Home</button>
+          <button id="footer_home_button" class="footer_button">Home</button>
         </a>
         <a href="#">
-          <button class="footer_button">About Us</button>
+          <button id="footer_about_us_button" class="footer_button">About Us</button>
         </a>
         <a href="#">
-          <button class="footer_button">Contact Us</button>
+          <button id="footer_contact_us_button" class="footer_button">Contact Us</button>
         </a>
         <a href="#">
-          <button class="footer_button">Leave a Review</button>
+          <button id="footer_leave_review_button" class="footer_button">Leave a Review</button>
         </a>
         <a href="#">
-          <button class="footer_button">Privacy Policy</button>
+          <button id="footer_privacy_policy_button" class="footer_button">Privacy Policy</button>
         </a>
 
       </div>
@@ -288,8 +294,8 @@
 
   <section id="legals">
 
-    <div class="legals_container legals_text">
-      Copyright © 2019 Normigurumi - All Rights Reserved - Insert Patent if applicable
+    <div id="footer_legals_text" class="legals_container legals_text">
+      Copyright © 2023 Normigurumi - All Rights Reserved - Insert Patent if applicable
     </div>
 
   </section>
@@ -303,6 +309,7 @@
   <script src="https://www.google-analytics.com/analytics.js" async></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/lang.js"></script>
 </body>
 
 </html>

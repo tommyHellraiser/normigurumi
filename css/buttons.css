@@ -40,8 +40,8 @@
 
 @media (max-width: 500px) {
     .rotating_button {
-        height: 255px;
-        width: 262px;
+        height: 254px;
+        width: 260px;
     }
 }
 
@@ -52,8 +52,6 @@
 .animated_button_text {
     color: black;
     text-decoration: none;
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 2.5rem;
     transform: translateY(-250px);
     transition: text-shadow 100ms ease-in-out;
 }
@@ -66,8 +64,18 @@
 }
 
 .animated_button_text_content {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2.5rem;
     text-decoration: none;
+
     color: black;
+}
+
+@media (max-width: 500px) {
+    .animated_button_text_content {
+        font-size: 2rem;
+        transform: translateY(-210px);
+    }
 }
 
 .animated_button_text:hover {
