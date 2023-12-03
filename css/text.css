@@ -42,10 +42,22 @@
     font-size: 1.2rem;
 }
 
+@media (max-width: 500px) {
+    .common_text_par {
+        text-align: center;
+    }
+}
+
 .light_color_text {
     color: #f8a4a6;
 }
 
 .location_text_footer {
     padding: 2rem;
+}
+
+@media (max-width: 500px) {
+    .location_text_footer {
+        padding: 2rem 0 2rem 0;
+    }
 }

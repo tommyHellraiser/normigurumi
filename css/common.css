@@ -12,7 +12,7 @@
     transform: scale(1.05);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .card {
         max-width: 15rem;
         margin: 2rem;
@@ -30,7 +30,7 @@
     border-radius: 0.7rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .card_image img {
         max-width: 15rem;
     }
@@ -48,4 +48,8 @@
     padding: 0.1rem 0.9rem 0.5rem 0.9rem;
     overflow-wrap: break-word;
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
