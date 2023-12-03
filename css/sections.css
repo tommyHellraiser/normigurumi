@@ -12,7 +12,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(#FFCACC, #FAF3F0);
+  background-image: linear-gradient(#FFCACC, rgba(255, 202, 204, 0));
   /*background: #FFCACC;*/
   margin: 0;
   /*border: #E8A0BF 10px solid;*/
