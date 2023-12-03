@@ -35,6 +35,11 @@ function spanish_configurations() {
     $("#catalog_card_description").text("Nuestra selección de muñecas más populares, con una variedad de estilos y colores para elegir.");
     $("#custom_card_title").text("Personalizado");
     $("#custom_card_description").html("Haremos realidad tu visión de un Amigurumi hecho a medida.<br>Contáctanos para solicitar una creación única!");
+    $("#for_babies_card_title").text("Para bebés");
+    $("#for_babies_card_description").text(
+        "Celebra cada momento, desde la alegría del recién nacido hasta el juego de los niños pequeños, con nuestras colecciones personalizadas para bautismos, baby showers y cumpleaños."
+    );
+    
     $("#footer_location_text").html(
         "Mendoza, Argentina.\n" +
         "          <br>\n" +
