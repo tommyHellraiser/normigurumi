@@ -141,7 +141,7 @@
 
 @media (max-width: 500px) {
   .landing_image img {
-    height: 300px;
+    height: 400px;
   }
 }
 
@@ -181,7 +181,8 @@
 
 @media (max-width: 600px) {
     .amigirumi_image_mobile {
-        scale: 0.7;
+      margin: 0;
+      scale: 0.8;
     }
 }
 
