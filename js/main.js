@@ -13,13 +13,13 @@ $("#menu_items").slideToggle({duration: 1});
 
 $(document).ready(function($) {
     $(window).on("resize", function() {
-       if ($(window).width() < 500) {
+       if ($(window).width() < 1050) {
            configure_for_mobile();
        } else {
            configure_for_desktop();
        }
     });
-    if ($(window).width() < 500) {
+    if ($(window).width() < 1050) {
         configure_for_mobile();
     } else {
         configure_for_desktop();
@@ -47,14 +47,6 @@ function configure_for_desktop() {
 // Mobile menu functionality
 
 function drop_menu() {
-    // var x = document.getElementById("menu_items");
-    // if (x.style.display === "block") {
-    //     x.style.display = "none";
-    // }
-    // else {
-    //     x.style.display = "block";
-    //    
-    // }
     var menu = $("#menu_items");
     // menu.toggleClass("menu_expanded");
     // menu.slideToggle();
