@@ -18,9 +18,13 @@ switch(language) {
 }
 function spanish_configurations() {
     $("#es_button_text").removeClass("hidden");
-    $("#home_button").text("Inicio");
-    $("#store_button").text("Tienda");
-    $("#about_us_button").text("Sobre Nosotros");
+    $(".home_button").text("Inicio");
+    $(".categories_button").text("Categorías");
+    $(".about_us_button").text("Sobre Nosotros");
+    $(".contact_us_button").text("Contáctanos");
+    $(".review_button").text("Deja una Reseña");
+    $(".chat_with_us_button").text("Chatea con Nosotros");
+    $(".privacy_policy_button").text("Políticas de Privacidad");
     $("#about_us_title").text("Sobre Nosotros");
     $("#about_us_description").html(
         "Disfruta de la magia de los muñecos de lana hechos a mano meticulosamente.<br>\n" +
@@ -49,11 +53,6 @@ function spanish_configurations() {
         "          <br>\n" +
         "          Consultar por envíos al exterior."
     );
-    $("#footer_home_button").text("Inicio");
-    $("#footer_about_us_button").text("Sobre Nosotros");
-    $("#footer_contact_us_button").text("Contáctanos");
-    $("#footer_leave_review_button").text("Deja una Reseña");
-    $("#footer_privacy_policy_button").text("Políticas de Privacidad");
     $("#footer_legals_text").text("Copyright © 2023 Normigurumi - Todos los Derechos Reservados - Insertar Patente si Corresponde");
 }
 

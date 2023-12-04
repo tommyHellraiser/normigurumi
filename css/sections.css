@@ -297,7 +297,7 @@ https://www.loreleisorrento.com/*/
 .footer_section {
   display: flex;
   flex-direction: column;
-  /*padding: 1rem;*/
+  padding: 1rem;
   width: 33%;
 }
 

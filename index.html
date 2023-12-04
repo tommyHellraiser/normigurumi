@@ -40,14 +40,14 @@
     <div class="first_header">
 
       <div class="header_section left_aligned header_menu_buttons">
-        <a href="#"><button id="home_button" class="header_menu_button">Home</button></a>
-        <a href="#"><button id="store_button" class="header_menu_button">Store</button></a>
-        <a href="#"><button id="about_us_button" class="header_menu_button">About Us</button></a>
+        <a href="index.html"><button id="home_button" class="home_button header_menu_button">Home</button></a>
+        <a href="categories.html"><button id="store_button" class="categories_button header_menu_button">Categories</button></a>
+        <a href="about_us.html"><button id="about_us_button" class="about_us_button header_menu_button">About Us</button></a>
       </div>
 
       <div id="logo_image" class="header_section middle_aligned">
         <div class="logo_container">
-          <a href="#">
+          <a href="index.html">
             <img src="img/logo_fix.png"  alt="Normigurumi logo" height="150px">
           </a>
         </div>
@@ -60,17 +60,23 @@
       </div>
 
       <div class="header_section right_aligned header_menu_buttons">
-        <a href="#"><button class="header_menu_button">Another Button</button></a>
-        <a href="#"><button class="header_menu_button">Yet Another Button</button></a>
+        <a href="contact_us.html"><button id="contact_us_button" class="contact_us_button header_menu_button">Contact Us</button></a>
+        <a href="review.html"><button id="review_button" class="review_button header_menu_button">Leave a Review</button></a>
       </div>
     </div>
 
     <div id="menu_items" class="menu_items menu_collapsed">
-      <a class="menu_item common_text_par" href="#">Home</a>
-      <a class="menu_item common_text_par" href="#">Store</a>
-      <a class="menu_item common_text_par" href="#">About Us</a>
-      <a class="menu_item common_text_par" href="#">Another Button</a>
-      <a class="menu_item common_text_par" href="#">Yet Another Button</a>
+      <a href="index.html" class="home_button menu_item common_text_par">Home</a>
+      <a href="categories.html" class="categories_button menu_item common_text_par">Categories</a>
+      <a href="about_us.html" class="about_us_button menu_item common_text_par">About Us</a>
+      <a href="contact_us.html" class="contact_us_button menu_item common_text_par">Contact Us</a>
+      <a href="review.html" class="review_button menu_item common_text_par">Leave a Review</a>
+      <a href="https://wa.me/+5492615105315" target="popup" class="menu_item common_text_par">
+        <div class="container_row">
+          <div class="chat_with_us_button common_text_par centered padding_one_sides">Chat With Us</div>
+          <img class="mobile_menu_icon centered" src="img/resource/whatsapp.png" alt="Whatsapp contact icon" height="30px">
+        </div>
+      </a>
     </div>
 
   </section>
@@ -118,7 +124,7 @@
         </h2>
       </a>
 
-      <div class="animated_button_container">
+      <div onclick="open_categories()" class="animated_button_container">
 
         <a href="#"><button class="rotating_button"></button></a>
 
@@ -150,7 +156,8 @@
 
       <div class="catalog_section middle_aligned">
 
-        <div class="card">
+
+        <div onclick="open_montessori()" class="card">
 
           <div class="card_image">
 
@@ -172,7 +179,8 @@
 
         </div>
 
-        <div class="card">
+
+        <div onclick="open_catalog()" class="card">
 
           <div class="card_image">
 
@@ -190,7 +198,7 @@
 
         </div>
 
-        <div class="card">
+        <div onclick="open_custom()" class="card">
 
           <div class="card_image">
 
@@ -210,7 +218,7 @@
 
         </div>
 
-        <div class="card">
+        <div onclick="open_for_babies()" class="card">
 
           <div class="card_image">
 
@@ -259,20 +267,20 @@
 <!--      Center footer section-->
       <div class="footer_section middle_aligned_footer">
 
-        <a href="#">
-          <button id="footer_home_button" class="footer_button">Home</button>
+        <a href="index.html">
+          <button id="footer_home_button" class="home_button footer_button">Home</button>
+        </a>
+        <a href="about_us.html">
+          <button id="footer_about_us_button" class="about_us_button footer_button">About Us</button>
+        </a>
+        <a href="contact_us.html">
+          <button id="footer_contact_us_button" class="contact_us_button footer_button">Contact Us</button>
+        </a>
+        <a href="review.html">
+          <button id="footer_leave_review_button" class="review_button footer_button">Leave a Review</button>
         </a>
         <a href="#">
-          <button id="footer_about_us_button" class="footer_button">About Us</button>
-        </a>
-        <a href="#">
-          <button id="footer_contact_us_button" class="footer_button">Contact Us</button>
-        </a>
-        <a href="#">
-          <button id="footer_leave_review_button" class="footer_button">Leave a Review</button>
-        </a>
-        <a href="#">
-          <button id="footer_privacy_policy_button" class="footer_button">Privacy Policy</button>
+          <button id="footer_privacy_policy_button" class="privacy_policy_button footer_button">Privacy Policy</button>
         </a>
 
       </div>
@@ -332,6 +340,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/lang.js"></script>
+  <script src="js/functions.js"></script>
 </body>
 
 </html>

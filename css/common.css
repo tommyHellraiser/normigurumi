@@ -53,3 +53,25 @@
 .hidden {
     display: none;
 }
+
+.container_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding_one_sides {
+    padding: 0 1rem 0 1rem;
+}
