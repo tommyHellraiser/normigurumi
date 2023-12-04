@@ -75,3 +75,12 @@
 .padding_one_sides {
     padding: 0 1rem 0 1rem;
 }
+
+.padding_two_top_bottom {
+    padding: 2rem 0 2rem 0;
+}
+
+.seal_of_error_image img {
+    object-fit: contain;
+    max-width: 100%;
+}

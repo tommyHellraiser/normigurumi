@@ -61,3 +61,7 @@
         padding: 2rem 0 2rem 0;
     }
 }
+
+.centered_text {
+    text-align: center;
+}
