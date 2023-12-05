@@ -62,6 +62,18 @@
     }
 }
 
-.centered_text {
+.text_centered {
     text-align: center;
+}
+
+.text_left_aligned {
+    text-align: left;
+}
+
+.text_right_aligned {
+    text-align: right;
+}
+
+.text_justify {
+    text-align: justify;
 }
