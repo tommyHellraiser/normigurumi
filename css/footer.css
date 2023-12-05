@@ -29,7 +29,7 @@ https://www.loreleisorrento.com/*/
 .footer_section {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
     width: 33%;
 }
 
@@ -37,7 +37,7 @@ https://www.loreleisorrento.com/*/
     .footer_section {
         width: 100%;
         align-items: center;
-        padding: 0;
+        padding: 2rem 0 2rem 0;
     }
 }
 
