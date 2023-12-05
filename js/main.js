@@ -33,6 +33,11 @@ function configure_for_mobile() {
     $('#contact_section_footer').removeClass('right_aligned_footer');
     $('.header_menu_buttons').addClass('hidden');
     $('.mobile_menu_button').removeClass('hidden');
+    
+    // Montessori page
+    $("#montessori_description_title").addClass("text_centered").removeClass("text_left_aligned");
+    $("#montessori_description_container").removeClass("container_row").addClass("container_col").addClass("align_center_hor_col")
+    $("#montessori_description_content").addClass("text_centered");
 }
 
 function configure_for_desktop() {
