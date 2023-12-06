@@ -88,6 +88,11 @@
     padding: 0 1rem 0 1rem;
 }
 
+.padding_1_top_bottom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .padding_2_sides {
     padding-right: 2rem;
     padding-left: 2rem;
