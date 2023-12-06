@@ -134,7 +134,6 @@
 
 @media (max-width: 500px) {
   .catalog_section {
-    margin: 0;
     justify-content: center;
   }
 }
