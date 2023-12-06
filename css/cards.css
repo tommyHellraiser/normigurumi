@@ -63,3 +63,7 @@
     transition: transform 200ms ease-in-out;
     text-align: left;
 }
+
+.card_horizontal:hover {
+    transform: scale(1.05);
+}
