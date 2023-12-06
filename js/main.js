@@ -48,7 +48,7 @@ function configure_for_mobile() {
     // Categories page
     $("#key_container_1_categories").removeClass("container_row").addClass("container_col").addClass("align_center_hor_col");
     $("#key_container_2_categories").removeClass("container_row").addClass("container_col").addClass("align_center_hor_col");
-    $(".remove_width_50").removeClass("width_50").addClass("align_center_hor_row");
+    $(".remove_width_50").removeClass("width_50").removeClass("align_left_col").addClass("align_center_hor_row");
     $(".remove_card_horizontal").removeClass("card_horizontal").addClass("card");
     $(".text_to_center").addClass("text_centered");
 }
