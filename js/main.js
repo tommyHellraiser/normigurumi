@@ -54,7 +54,7 @@ function configure_for_mobile() {
 }
 
 function configure_for_cellphone() {
-
+    //  TODO check what could go here, nothing at the moment
 }
 
 function configure_for_desktop() {
