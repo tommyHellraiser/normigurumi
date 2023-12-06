@@ -15,12 +15,18 @@ $(document).ready(function($) {
     $(window).on("resize", function() {
        if ($(window).width() < 1050) {
            configure_for_mobile();
+           if ($(window).width() < 600) {
+               configure_for_cellphone();
+           }
        } else {
            configure_for_desktop();
        }
     });
     if ($(window).width() < 1050) {
         configure_for_mobile();
+        if ($(window).width() < 600) {
+            configure_for_cellphone();
+        }
     } else {
         configure_for_desktop();
     }
@@ -38,6 +44,17 @@ function configure_for_mobile() {
     $("#montessori_description_title").addClass("text_centered").removeClass("text_left_aligned");
     $("#montessori_description_container").removeClass("container_row").addClass("container_col").addClass("align_center_hor_col");
     $("#montessori_description_content").addClass("text_centered").removeClass("width_50");
+
+    // Categories page
+    $("#key_container_1_categories").removeClass("container_row").addClass("container_col").addClass("align_center_hor_col");
+    $("#key_container_2_categories").removeClass("container_row").addClass("container_col").addClass("align_center_hor_col");
+    $(".remove_width_50").removeClass("width_50").addClass("align_center_hor_row");
+    $(".remove_card_horizontal").removeClass("card_horizontal").addClass("card");
+    $(".text_to_center").addClass("text_centered");
+}
+
+function configure_for_cellphone() {
+
 }
 
 function configure_for_desktop() {
