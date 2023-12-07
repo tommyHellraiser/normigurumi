@@ -1,16 +1,5 @@
 // Responsive design elements
 
-//  Menu initialization, cause it lags the first time for some reason
-$("#menu_items").slideDown({
-    start: function () {
-        $(this).css({
-            display: "flex"
-        })
-    },
-    duration: 1,
-});
-$("#menu_items").slideToggle({duration: 1});
-
 $(document).ready(function($) {
     $(window).on("resize", function() {
        if ($(window).width() < 1050) {
