@@ -1,3 +1,6 @@
+
+function get_navbar_div() {
+    return `
 <div id="desktop_menu">
 
     <div class="first_header">
@@ -38,7 +41,7 @@
 
         <div id="mobile_menu_button" class="mobile_menu_button">
 
-            <img onclick="drop_menu()" src="img/resource/menu.png" alt="Menu button" height="40px">
+            <img id="mobile_menu_button_image" onclick="drop_menu()" src="img/resource/menu.png" alt="Menu button" height="40px">
 
         </div>
 
@@ -59,3 +62,6 @@
     </div>
 
 </div>
+
+    `
+}
